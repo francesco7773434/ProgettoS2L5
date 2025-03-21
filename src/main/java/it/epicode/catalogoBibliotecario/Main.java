@@ -44,9 +44,9 @@ public class Main {
 
                         break;
                     case 6:
-
-                        archivio.cercaElementoPerAutore(String.valueOf(scanner));
-
+                        System.out.print("Inserisci l'autore: ");
+                        String autore = scanner.nextLine();
+                        archivio.cercaElementoPerAutore(autore);
                         break;
                     case 7:
                         archivio.aggiornaElemento(scanner);
