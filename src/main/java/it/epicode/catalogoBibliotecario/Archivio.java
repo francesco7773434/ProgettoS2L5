@@ -18,6 +18,7 @@ public class Archivio {
 
            if (catalogo.containsKey(isbn)) {
                throw new ElementoDuplicatoException("Elemento con ISBN " + isbn + " già presente nel catalogo.");
+
            }
            System.out.print("Inserisci Titolo: ");
            String titolo = scanner.nextLine();

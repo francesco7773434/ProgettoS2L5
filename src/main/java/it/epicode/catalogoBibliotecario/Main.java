@@ -16,7 +16,8 @@ public class Main {
                 System.out.println("5. Cerca Elemento per Anno Pubblicazione");
                 System.out.println("6. Cerca Elemento per autore");
                 System.out.println("7. Aggiorna Elemento");
-                System.out.println("8. Esci");
+                System.out.println("8. Aggiorna Elemento");
+                System.out.println("9. Stampa Statistiche");
                 System.out.print("Scegli un'opzione: ");
                 int scelta = Integer.parseInt(scanner.nextLine());
 
